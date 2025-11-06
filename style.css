@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(4, 124, 0);
+    padding: 8px;
+
+}
+
+
+#buttona{
+    margin-left: 670px;
+    padding: 5px;
+    width: 80px;
+    background-color: rgb(4, 112, 1);
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+}
+
+.links a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 25px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.links{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+}
