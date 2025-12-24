@@ -19,11 +19,62 @@
     </div>
     <div class="log">
         <button id="buttona">Log In
-        </button>
+        </button>  
+
+    </div>
+    <div id="login-modal" class="modal">
+
+        <div class="modal-content">
+            <span class="close-btn">&times;</span> <h2>User Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
 
     </div>
 </div>
+<div class="welcome">
+    <div class="one">WELCOME </div>
+    <div class="two">TO </div>
+    <div class="three">AMERICAN </div>
+    <div class="four">FRESH </div>
+</div>
+<div class="seaching">
+    <div style="position: relative; width: 450px; margin-left:450px;">
+        <input type="text" id="searchInput" placeholder="Search..." style="width: 100%; padding: 15px 32px 15px 12px; border-radius: 8px; border: 1px solid rgba(0, 99, 41, 0.6); background-color: rgba(255, 255, 255, 0.8); color: white;">
+        <span style="position: absolute; right: 5px; top: 50%; transform: translateY(-50%); color: white;">
+            🔍
+        </span>
+    </div>
+</div>
+<div class="main">
+    <div class="offers">
+
+    </div>
+    <div class="products">
+        <table id="products">
+            <tr id="trone">
+                <td>
+                    <img src="apple.png" height="100" width="100"><br>
+                    <b>RED APPLE</b>
+                    <p id="trpone"><b>Rs. 100 Rs./Kg</b></p>
+                    <button id="applea">ADD</button>
+
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+
 <div class="bg-image"></div>
-    
+
+<script src="script.js"></script>    
 </body>
 </html>
